@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "xkzuto.armordamagetint.mixin.client",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"HumanoidArmorLayerMixin",
+		"EquipmentLayerRendererMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

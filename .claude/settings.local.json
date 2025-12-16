@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(del \"D:\\Documents\\Backup\\Mods\\updates\\ArmorDamageTint\\src\\client\\java\\xkzuto\\damagetintplus\\mixin\\client\\ExampleClientMixin.java\")",
+      "Bash(./gradlew build:*)",
+      "Bash(./gradlew genSources:*)",
+      "Bash(jar tf:*)",
+      "Bash(unzip:*)",
+      "Bash(./gradlew clean build)"
+    ]
+  }
+}

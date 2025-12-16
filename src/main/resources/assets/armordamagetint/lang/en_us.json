@@ -1,0 +1,15 @@
+{
+	"config.armordamagetint.title": "Armor Damage Tint",
+	"config.armordamagetint.category.general": "General",
+	"config.armordamagetint.category.color": "Custom Color (use these to override presets)",
+	"config.armordamagetint.enabled": "Enable",
+	"config.armordamagetint.enabled.tooltip": "Show damage tint on player armor",
+	"config.armordamagetint.preset": "Color Preset",
+	"config.armordamagetint.preset.tooltip": "Select a preset color or use Custom with the sliders below",
+	"config.armordamagetint.intensity": "Intensity",
+	"config.armordamagetint.intensity.tooltip": "How strong the tint effect is (0-100%)",
+	"config.armordamagetint.red": "Red",
+	"config.armordamagetint.green": "Green",
+	"config.armordamagetint.blue": "Blue",
+	"config.armordamagetint.color.tooltip": "Changing this will switch preset to Custom"
+}

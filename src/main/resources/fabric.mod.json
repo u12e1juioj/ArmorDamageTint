@@ -1,0 +1,45 @@
+{
+	"schemaVersion": 1,
+	"id": "armordamagetint",
+	"version": "${version}",
+	"name": "Armor Damage Tint",
+	"description": "Adds customizable damage tint to player armor. Toggle on/off and change the tint color from in-game config.",
+	"authors": [
+		"xkzuto"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/armordamagetint/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"main": [
+			"xkzuto.armordamagetint.ArmorDamageTint"
+		],
+		"client": [
+			"xkzuto.armordamagetint.ArmorDamageTintClient"
+		],
+		"modmenu": [
+			"xkzuto.armordamagetint.ModMenuIntegration"
+		]
+	},
+	"mixins": [
+		"armordamagetint.mixins.json",
+		{
+			"config": "armordamagetint.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.18.2",
+		"minecraft": "~1.21.10",
+		"java": ">=21",
+		"fabric-api": "*",
+		"cloth-config": "*"
+	},
+	"suggests": {
+		"modmenu": "*"
+	}
+}
