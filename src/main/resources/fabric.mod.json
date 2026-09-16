@@ -8,8 +8,9 @@
 		"xkzuto"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/u12e1juioj/ArmorDamageTint",
+		"sources": "https://github.com/u12e1juioj/ArmorDamageTint",
+		"issues": "https://github.com/u12e1juioj/ArmorDamageTint/issues"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/armordamagetint/icon.png",
@@ -33,9 +34,9 @@
 		}
 	],
 	"depends": {
-		"fabricloader": ">=0.18.2",
-		"minecraft": "~1.21.10",
-		"java": ">=21",
+		"fabricloader": ">=0.19.0",
+		"minecraft": ">=26.1 <26.4",
+		"java": ">=25",
 		"fabric-api": "*",
 		"cloth-config": "*"
 	},
